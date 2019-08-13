@@ -3,12 +3,6 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
-
-
-TriggerEvent('esx_society:registerSociety', 'taxi', 'Taxi', 'society_taxi', 'society_taxi', 'society_taxi', {type = 'public'})
-
-
-
 ---------------------------------------------------------------------------------------
 ----------------------------------BAŞARILI HACK ÖDÜLLERİ-------------------------------
 ---------------------------------------------------------------------------------------
@@ -73,18 +67,6 @@ end)
 
 
 
----------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------
 
 
 
-
-
-
-ESX.RegisterServerCallback('esx_taxijob:getPlayerInventory', function(source, cb)
-	local xPlayer = ESX.GetPlayerFromId(source)
-	local items   = xPlayer.inventory
-
-	cb( { items = items } )
-end)
