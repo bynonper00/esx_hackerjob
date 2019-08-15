@@ -49,6 +49,6 @@ INSERT INTO `job_grades` (`id`, `job_name`, `grade`, `name`, `label`, `salary`, 
 
 -- --------------------------------------------------------
 
-INSERT INTO `items` (`id`, `name`, `label`, `limit`, `rare`, `can_remove`) VALUES
-(141, 'keycard', 'Keycard', -1, 0, 1);
+INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
+('keycard', 'Keycard', -1, 0, 1);
 
